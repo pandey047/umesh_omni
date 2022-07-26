@@ -1,0 +1,69 @@
+{
+    "database_connection": "MySQL 1",
+    "schema_name": "dummy",
+    "table_name": "Persons",
+    "fields": {
+        "Season": {
+            "type": "dimension",
+            "name": "Season",
+            "datatype": "integer",
+            "sql_field": "season"
+        },
+        
+        "Season Type": {
+            "type": "dimension",
+            "name": "Season Type",
+            "datatype": "string",
+            "sql_field": "season_type"
+        },
+        "Game ID": {
+            "type": "dimension",
+            "name": "Game ID",
+            "datatype": "string",
+            "sql_field": "game_id"
+        },
+        "Poss Team": {
+            "type": "dimension",
+            "name": "Poss Team",
+            "datatype": "string",
+            "sql_field": "poss team"
+        },
+        "Player ID": {
+            "type": "dimension",
+            "name": "Player ID",
+            "datatype": "string",
+            "sql_field": "player_id"
+        },
+        "Player Name": {
+            "type": "dimension",
+            "name": "Player Name",
+            "datatype": "string",
+            "sql_field": "player_name"
+        },
+        "Player Team": {
+            "type": "dimension",
+            "name": "Player Team",
+            "datatype": "string",
+            "sql_field": "player_team_abbr"
+        },
+        "Player Event": {
+            "type": "dimension",
+            "name": "Player Event",
+            "datatype": "string",
+            "sql_field": "player_event"
+        },
+        "Points Scored": {
+            "type": "measure",
+            "name": "Points Scored",
+            "datatype": "integer",
+            "sql_field": "points_scored",
+            "calc": "sum"
+        },
+        "Poss Time": {
+            "type": "measure",
+            "name": "Poss Time",
+            "datatype": "integer",
+            "sql_field": "poss_time"
+        }
+    }
+}

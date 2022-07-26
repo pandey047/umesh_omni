@@ -1,0 +1,19 @@
+{
+	"data_model": "PBP Possessions",
+	"data_source_type": "simple_aggregation",
+	"table_type": "view",
+	"schema_name": "dummy",
+	"table_name": "data_source_test_1",
+	"dimensions": [
+		"Season",
+		"Season Type",
+		"Player Name"
+	],
+	"filters": [
+		"season = 2021",
+		"season_type = 'Regular Season'"
+	],
+	"metrics": {
+		"Points Scored": "sum"
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"host": "omni.clyxmoi0luqd.us-east-1.rds.amazonaws.com",
+	"port": "3307",
+	"database": "dummy",
+	"username": "cfunaki",
+	"password": "Chris123"
+}
